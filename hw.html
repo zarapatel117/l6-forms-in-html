@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="pink">
+    <form>
+        <fieldset>
+            <legend><h2>Registration Form</h2></legend>
+
+            <h3><label for="name">Enter your name</label></h3>
+            <input type="text" id="name" name="name" placeholder="John Doe"><br><br>
+
+            <h3><label for="email">E-Mail ID</label></h3>
+            <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+            <h3><label for="contact">Contact number</label></h3>
+            <input type="tel" id="contact" name="contact" placeholder="012-345-6789"><br><br>
+
+            <h3><label>Gender</label></h3>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br><br>
+
+            <h3><label>Fav city</label></h3>
+            <input type="checkbox" id="city1" name="city" value="New Delhi">
+            <label for="city1">New Delhi</label><br>
+            <input type="checkbox" id="city2" name="city" value="Mumbai">
+            <label for="city2">Mumbai</label><br><br>
+
+            <h3><label for="birthdate">Birthdate</label></h3>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+
+            <h3><label for="grade">Grade (class)</label></h3>
+            <select name="grade" id="grade">
+                <option value="">-- Select Grade --</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="10">10</option>
+            </select><br><br>
+
+            <h3><label for="address">Address</label></h3>
+            <textarea id="address" name="address" rows="3" cols="30" placeholder="123 Main St, City, Country"></textarea><br><br>
+
+            <h3><label for="emergency">Emergency Contact Number</label></h3>
+            <input type="tel" id="emergency" name="emergency" placeholder="098-765-4321"><br><br>
+
+            <h3><label>Preferred Contact Method</label></h3>
+            <select id="contact_method" name="contact_method">
+                <option value="">-- Select --</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="sms">SMS</option>
+            </select><br><br>
+
+            <h3><label for="course">Course / Program Interested In</label></h3>
+            <input type="text" id="course" name="course" placeholder="e.g. Sustainability 101"><br><br>
+
+            <h3>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Sign me up for the newsletter</label>
+            </h3><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
